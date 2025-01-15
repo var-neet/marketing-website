@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Londrina+Outline&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ultra&display=swap" rel="stylesheet">       <link rel="stylesheet" href="styles.css">
+        <title>WELCOME TO LYNE ZONE!</title>
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+    
+    <body>
+    <div class="story-html">
+        <div class="home-navbar">
+            <div class="brand">
+                <img id="logo" src="icons/7d3e262b1cbd4dc184482872e2c36824.webp" alt="Logo">
+                <h1 id="brand">Lyne Zone</h1>
+            </div>
+
+            <nav>   
+                <a href="index.html#home-page">Home</a> |
+                <a href="index.html#activities-page">Activities</a> |
+                <a href="index.html#referrals-page">Referrals</a> |
+                <a href="index.html#faq-page">FAQ</a> |
+                <a href="index.html#contact-page">Contact</a>
+            </nav>
+
+            <button id="btn-book">Book now</button>
+        </div>
+
+        <div class="story">
+            <h2>Hey! I'm Sophie</h2>
+            <h3>Lyne Zone was born out of a dream to create a space where joy and connection thrive. As the founder, I grew up 
+                captivated by the magic of places that brought people together—whether it was the buzz of an arcade, the laughter 
+                in a bowling alley, or the thrill of laser tag. That passion inspired me to create Lyne Zone, a destination where 
+                every visit feels like a new adventure.</h3>
+            <h3>For roughly 5 years or exactly  <span id="counter"><script>
+                const secondsInOneYear = 365.25 * 24 * 60 * 60; 
+                const totalSecondsInThreeYears = 4.5 * secondsInOneYear;
+                let currentTimeInSeconds = totalSecondsInThreeYears;
+        
+                function updateCounter() {
+                    document.getElementById("counter").textContent = currentTimeInSeconds;
+                    currentTimeInSeconds++;
+                }
+        
+                setInterval(updateCounter, 1000); 
+            </script></span> seconds, Lyne Zone has been a hub of excitement, offering everything from cutting-edge games to 
+                unforgettable party spaces. It's more than just an entertainment center; it's a place where families bond, friends 
+                celebrate, and memories are made.</h3>
+            <h3>When you step into Lyne Zone, you're not just a guest—you're part of a story that's still unfolding. Thank you for 
+                making us a part of your journey. Let's keep creating moments that matter!</h3>
+        </div>
+
+        <h2 class="experience">Take a Sneak Peek!</h2>
+        
+        <div class="wrapper">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+            <div class="item item5"></div>
+          </div>
+
+    </div>
+    <div class="footer">
+        <h4>Curious about our latest updates?</h4>
+        <h5>Follow us on social media</h5>
+        <div class="social-media">
+            <div class="ig"></div>
+            <div class="tiktok"></div>
+            <div class="facebook"></div>
+            <div class="youtube"></div>
+        </div>
+        <h5 id="footer">© 2025 Lyne Zone, All Rights Reserved. Designed by Varneet Kaur.</h5>
+    </div>
+    </body>
+    
+    </html>
